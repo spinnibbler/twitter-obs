@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+.content, .profile-image, .tweet-media, .tweet, .username, .display-name, .twitter-logo, .tweet-date {
+    position: fixed;
+}
+
+.display-name, .username {
+    font-size: 24px;
+}
+
+.content {
+    margin: 200px 100px 0px 340px;
+}
+
+.profile-image {
+    padding-left: 35px;
+}
+
+.tweet-media {
+    margin: 0 0 0 250px;
+}
+
+.display-name > h1 {
+    margin: 0 0 0 790px;
+}
+
+.username > h2 {
+    margin: 13px 0 0 1130px;
+    font-weight: 400;
+}
+
+.tweet > p {
+    width: 500px;
+    margin: 70px 0 0 790px;
+    font-size: 48px;
+}
+
+.tweet-date> p {
+    margin: 300px 0 0 790px;
+    text-transform: uppercase;
+}
+
+.twitter-logo {
+    margin: 920px 0 0 80px;
+}
